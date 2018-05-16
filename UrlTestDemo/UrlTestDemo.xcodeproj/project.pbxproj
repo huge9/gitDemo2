@@ -17,6 +17,7 @@
 		383C2496209198440098B58E /* UrlTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C2495209198440098B58E /* UrlTestDemoUITests.m */; };
 		383C24A5209198700098B58E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383C24A4209198700098B58E /* Foundation.framework */; };
 		383C24A7209198750098B58E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383C24A6209198750098B58E /* UIKit.framework */; };
+		6528EFE120ABDA71009CA843 /* gitCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528EFE020ABDA71009CA843 /* gitCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		383C2497209198440098B58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		383C24A4209198700098B58E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		383C24A6209198750098B58E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6528EFDF20ABDA71009CA843 /* gitCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gitCommand.h; sourceTree = "<group>"; };
+		6528EFE020ABDA71009CA843 /* gitCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				383C2472209198430098B58E /* AppDelegate.m */,
 				383C2474209198430098B58E /* ViewController.h */,
 				383C2475209198430098B58E /* ViewController.m */,
+				6528EFDF20ABDA71009CA843 /* gitCommand.h */,
+				6528EFE020ABDA71009CA843 /* gitCommand.m */,
 				383C2477209198430098B58E /* Main.storyboard */,
 				383C247A209198430098B58E /* Assets.xcassets */,
 				383C247C209198430098B58E /* LaunchScreen.storyboard */,
@@ -283,6 +288,7 @@
 			files = (
 				383C2476209198430098B58E /* ViewController.m in Sources */,
 				383C2481209198440098B58E /* main.m in Sources */,
+				6528EFE120ABDA71009CA843 /* gitCommand.m in Sources */,
 				383C2473209198430098B58E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
