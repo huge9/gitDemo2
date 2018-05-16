@@ -12,4 +12,9 @@
 - (void)printGitCmd{
     NSLog(@"cmd is ~~~~");
 }
+
+- (void)resetCheckout{
+    //添加到zancunqu之后 再checkoutreset
+    NSLog(@"git add then git checkout resert");
+}
 @end
