@@ -9,5 +9,7 @@
 #import "gitCommand.h"
 
 @implementation gitCommand
-
+- (void)printGitCmd{
+    NSLog(@"cmd is ~~~~");
+}
 @end
