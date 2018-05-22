@@ -21,4 +21,8 @@
 - (void)devModify{
     NSLog(@"add code in dev");
 }
+
+- (void)detTest{
+    NSLog(@"dev test");
+}
 @end
