@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ViewController2.h
 //  UrlTestDemo
 //
-//  Created by wql on 2018/4/26.
+//  Created by 王秋丽 on 2018/8/2.
 //  Copyright © 2018年 wql. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController2 : UIViewController
 
 @end
-
