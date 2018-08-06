@@ -25,4 +25,9 @@
 - (void)detTest{
     NSLog(@"dev test");
 }
+
+- (void)merge2Git{
+    NSLog(@"合并两个仓库");
+}
+
 @end
